@@ -1,0 +1,27 @@
+{
+  "name": "jest-test",
+  "version": "1.0.0",
+  "main": "sum.js",
+  "scripts": {
+    "test": "jest",
+    "build": "tsc",
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --coverage"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@types/jest": "^29.5.13",
+    "@types/node": "^22.7.4",
+    "aws-sdk-mock": "^6.2.0",
+    "dotenv": "^16.4.5",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.2.5",
+    "typescript": "^5.6.2"
+  },
+  "dependencies": {
+    "aws-sdk": "^2.1691.0"
+  }
+}

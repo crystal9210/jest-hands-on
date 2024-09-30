@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Lambda Handler Snapshot Tests should match the snapshot for fetch error 1`] = `
+{
+  "body": "{"message":"Object not found"}",
+  "statusCode": 500,
+}
+`;
+
+exports[`Lambda Handler Snapshot Tests should match the snapshot for successful fetch 1`] = `
+{
+  "body": "{"message":"Hello, Snapshot!"}",
+  "statusCode": 200,
+}
+`;
